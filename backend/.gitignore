@@ -1,0 +1,32 @@
+# ✅ Node.js Dependencies
+node_modules/
+package-lock.json
+
+# ✅ Prisma (Database & Migrations)
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# ✅ Environment Variables (Sensitive API Keys)
+.env
+.env.local
+.env.development
+.env.production
+
+# ✅ Firebase Private Key (DO NOT PUSH THIS!)
+backend/firebase-admin-key.json
+
+# ✅ Logs & Debug Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ✅ VS Code & MacOS Files (Optional)
+.vscode/
+.DS_Store
+
+# ✅ Docker (If You Use It)
+docker-compose.override.yml
+firebase-admin-key.json
