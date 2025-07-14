@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.development
+dist/
+build/
+*.log
+
+# macOS
+.DS_Store
+
+# Prisma
+prisma/dev.db
+prisma/migrations/
+
+# Expo
+.expo/
+.expo-shared/
