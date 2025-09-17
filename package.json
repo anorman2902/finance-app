@@ -1,0 +1,17 @@
+{
+  "name": "finance-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cross-platform finance app (iOS, Android, Web) with Plaid integration, budgeting, and net worth tracking.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo \"Run dev from an app workspace (e.g., apps/api)\"",
+    "build": "echo \"Run build from an app workspace (e.g., apps/web)\"",
+    "test": "echo \"No root tests yet\" && exit 0"
+  },
+  "author": "anorman",
+  "license": "MIT"
+}
